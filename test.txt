@@ -1,5 +1,8 @@
-first test 0530
-
-
-
-two write 0531
+1、  	git  config --global user.email "18779171935@163.com"
+	git config -- global user.name "yuxianwei"
+2、	mkdir testgit
+	必须先创建一个文件夹，这个文件夹要被git进行初始化操作，才能进行一个git的版本管理
+3、	git init 
+	对这个文件夹要被git进行初始化操作，才能进行一个git的版本管理（初始化完成后，在当前目录下会有
+	一个.git文件，这个文件夹就是我们所说的版本库）
+4、	
