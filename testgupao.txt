@@ -18,3 +18,9 @@ git reflog
 
 如果进行版本回退之后，发下commitid没喽，可以使用git reflog进行所有
 的commitid查询
+
+
+HEAD 表示最新版本内容
+git reset -- hard commitid
+
+
