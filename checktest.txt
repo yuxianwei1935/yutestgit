@@ -6,11 +6,10 @@
 
 3、修改文件
 4、不想提交，返回上个版本
-5、git checkout -- 文件名
+5、
+git checkout -- 文件名
 
-
-
-6、
+6、更新所有文件
 git add .  提交文件夹下所有文件
 
 7、HEAD 表示最新的版本
@@ -27,10 +26,24 @@ git branch 分支名称
 git branch -d  分支名称
 =======
 8、创建一个分支
-	git checkout -b dev_yu
+git checkout -b dev_yu
 
+9、查看分支
+git branch
 
+10、切换分支
+git checkout 分支名称
+
+11、合并分支
+git merge 分支名称
+
+12、删除分支
+git branch -d  分支名称
 
 13、强制删除一个分支
 git branch -D 分支名称
+<<<<<<< HEAD
+>>>>>>> dev_yu
+=======
+
 >>>>>>> dev_yu
