@@ -1,0 +1,11 @@
+1、查看所有的配置信息
+(仓库级别.git-->config
+git config --local -l
+全局级别:当前用户之下表示的是全局级别
+git config --global -l
+系统级别：在我们的
+git config--system -l)
+git config -l
+2、编辑配置信息
+git config --local -e
+:wq
