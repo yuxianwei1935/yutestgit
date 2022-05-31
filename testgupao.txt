@@ -3,3 +3,8 @@ git status
 git add 文件名
 
 git commit -m "修改备注"
+
+
+	回退版本
+git log 可以查找id
+git reset --hard id
