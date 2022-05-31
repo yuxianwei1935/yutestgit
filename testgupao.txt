@@ -8,3 +8,13 @@ git commit -m "修改备注"
 	回退版本
 git log 可以查找id
 git reset --hard id
+
+
+	回退到之前的版本后，最新的commitid没了
+展示一行内容
+git log --pretty=oneline
+找到最新版本commitid
+git reflog
+
+如果进行版本回退之后，发下commitid没喽，可以使用git reflog进行所有
+的commitid查询
