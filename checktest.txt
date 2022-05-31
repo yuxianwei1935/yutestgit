@@ -16,5 +16,10 @@ git add .  提交文件夹下所有文件
 7、HEAD 表示最新的版本
 
 
-8、、切换分支
+8、创建一个分支
 	git checkout -b dev_yu
+
+
+
+13、强制删除一个分支
+git branch -D 分支名称
