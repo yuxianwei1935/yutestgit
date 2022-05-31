@@ -14,8 +14,6 @@ git add .  提交文件夹下所有文件
 
 7、HEAD 表示最新的版本
 
-
-<<<<<<< HEAD
 9、查看分支
 git branch
 10、切换分支
@@ -24,7 +22,7 @@ git branch 分支名称
 
 12、删除分支
 git branch -d  分支名称
-=======
+
 8、创建一个分支
 git checkout -b dev_yu
 
@@ -42,8 +40,4 @@ git branch -d  分支名称
 
 13、强制删除一个分支
 git branch -D 分支名称
-<<<<<<< HEAD
->>>>>>> dev_yu
-=======
 
->>>>>>> dev_yu
